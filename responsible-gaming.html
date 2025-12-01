@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PokerExchange • Responsible Gaming</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="color-scheme" content="dark" />
+  <link rel="icon" href="assets/logo.png" />
+  <style>
+    :root { color-scheme: dark; }
+    body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, 'Apple Color Emoji', 'Segoe UI Emoji'; }
+  </style>
+</head>
+<body class="bg-[#0b0b0f] text-white">
+  <header class="border-b border-white/10 bg-black/40 backdrop-blur">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="./" class="flex items-center gap-2" aria-label="PokerExch Home">
+        <img src="assets/logo.png" alt="PokerExch" class="h-10 w-auto object-contain" />
+      </a>
+      <a href="./" class="text-sm text-white/70 hover:text-white">Back to Home</a>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-10">
+    <h1 class="text-2xl sm:text-3xl font-bold">Responsible Gaming</h1>
+    <p class="mt-2 text-white/70 text-sm">We are committed to safe and responsible play. 18+ only.</p>
+
+    <section class="mt-8 space-y-6 text-sm leading-6 text-white/80">
+      <div>
+        <h2 class="text-lg font-semibold">Play Responsibly</h2>
+        <ul class="mt-2 list-disc pl-5 space-y-1">
+          <li>Set time and spending limits before you start</li>
+          <li>Never chase losses or play under stress</li>
+          <li>Keep gaming fun — not a source of income</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold">Self‑Control Tools</h2>
+        <p class="mt-2">Contact support to request deposit limits, time‑outs, or self‑exclusion. We will help implement controls promptly.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold">Warning Signs</h2>
+        <ul class="mt-2 list-disc pl-5 space-y-1">
+          <li>Borrowing money to play</li>
+          <li>Neglecting work, study, or family</li>
+          <li>Feeling anxious or guilty about play</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold">Get Help</h2>
+        <p class="mt-2">If you or someone you know has a problem with gaming, please seek help:</p>
+        <ul class="mt-2 list-disc pl-5 space-y-1">
+          <li><a class="text-brand-400 hover:underline" href="https://www.gamcare.org.uk/" target="_blank" rel="noopener">GamCare</a></li>
+          <li><a class="text-brand-400 hover:underline" href="https://www.begambleaware.org/" target="_blank" rel="noopener">BeGambleAware</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold">Contact</h2>
+        <p class="mt-2">Email <a class="text-brand-400 hover:underline" href="mailto:support@pokerexchange.com">support@pokerexchange.com</a> for responsible gaming requests.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 bg-black/40">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-8 text-xs text-white/60">
+      © <span id="year"></span> PokerExchange. 18+ only. Play responsibly.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

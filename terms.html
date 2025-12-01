@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PokerExchange • Terms & Conditions</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="color-scheme" content="dark" />
+  <link rel="icon" href="assets/logo.png" />
+  <style>
+    :root { color-scheme: dark; }
+    body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, 'Apple Color Emoji', 'Segoe UI Emoji'; }
+  </style>
+</head>
+<body class="bg-[#0b0b0f] text-white">
+  <header class="border-b border-white/10 bg-black/40 backdrop-blur">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="./" class="flex items-center gap-2" aria-label="PokerExch Home">
+        <img src="assets/logo.png" alt="PokerExch" class="h-10 w-auto object-contain" />
+      </a>
+      <a href="./" class="text-sm text-white/70 hover:text-white">Back to Home</a>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-10">
+    <h1 class="text-2xl sm:text-3xl font-bold">Terms & Conditions</h1>
+    <p class="mt-2 text-white/70 text-sm">Last updated: <span id="lastUpdated">Dec 1, 2025</span></p>
+
+    <section class="mt-8 space-y-6 text-sm leading-6 text-white/80">
+      <p>
+        Welcome to PokerExchange ("we", "us", "our"). By accessing or using our website and services, you agree to these
+        Terms & Conditions ("Terms"). If you do not agree, do not use the services.
+      </p>
+
+      <div>
+        <h2 class="text-lg font-semibold">1. Eligibility</h2>
+        <p class="mt-2">You must be at least 18 years old (or the age of majority in your jurisdiction) to use our services. Usage may be restricted in certain states/regions. You are responsible for ensuring that your use complies with local laws.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold">2. Skill-based Gaming & Responsible Play</h2>
+        <p class="mt-2">Poker is considered a game of skill. Financial risk is involved. Please play responsibly and never stake money you cannot afford to lose. If you need help, see our Responsible Gaming resources or contact support.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold">3. Accounts</h2>
+        <p class="mt-2">You agree to provide accurate information, maintain the security of your account, and accept responsibility for all activities that occur under your account.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold">4. Payments & Withdrawals</h2>
+        <p class="mt-2">Deposits and withdrawals may be processed by third‑party payment partners. Processing times are estimates and subject to verification and partner timelines.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold">5. Prohibited Conduct</h2>
+        <ul class="mt-2 list-disc pl-5 space-y-1">
+          <li>Fraud, collusion, or cheating of any kind</li>
+          <li>Use of bots, scripts, or unauthorized software</li>
+          <li>Attempting to compromise platform security</li>
+          <li>Violating applicable laws or third‑party rights</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold">6. Content & IP</h2>
+        <p class="mt-2">All logos, trademarks, and content are owned by PokerExchange or its licensors. You may not reproduce or distribute without permission.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold">7. Disclaimers</h2>
+        <p class="mt-2">Services are provided "as is" without warranties of any kind. We do not guarantee uninterrupted or error‑free operation.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold">8. Limitation of Liability</h2>
+        <p class="mt-2">To the maximum extent permitted by law, we are not liable for any indirect, incidental, or consequential damages arising from your use of the services.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold">9. Changes to the Terms</h2>
+        <p class="mt-2">We may update these Terms at any time. Continued use after changes constitutes acceptance of the updated Terms.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold">10. Contact</h2>
+        <p class="mt-2">For questions, contact us at <a class="text-brand-400 hover:underline" href="mailto:support@pokerexchange.com">support@pokerexchange.com</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 bg-black/40">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-8 text-xs text-white/60">
+      © <span id="year"></span> PokerExchange. 18+ only. Play responsibly.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
